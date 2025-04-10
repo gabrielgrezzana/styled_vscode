@@ -62,7 +62,7 @@
         "background-size": "500px 700px", // <- Faz a imagem cobrir todo o fundo
         "background-repeat": "no-repeat", // <- Garante que a imagem não se repita
         "opacity": 0.2, // <- 1 = 100% visível, mas ainda atrás do texto se "useFront" for false        
-        "border-radius": "20px", // <- Arredonda os cantos da imagem        
+        "border-radius": "20px",      
         "background-color":"black"
     },
     "styles": [],    
