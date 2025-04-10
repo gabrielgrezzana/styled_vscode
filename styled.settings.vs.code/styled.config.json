@@ -62,12 +62,12 @@
         "background-size": "500px 700px", // <- Faz a imagem cobrir todo o fundo
         "background-repeat": "no-repeat", // <- Garante que a imagem não se repita
         "opacity": 0.2, // <- 1 = 100% visível, mas ainda atrás do texto se "useFront" for false        
-        "border-radius": "20px",      
+        "border-radius": "20px", // <- Arredonda os cantos da imagem        
         "background-color":"black"
     },
     "styles": [],    
     "images": [        
-        "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnQwYzRwdzQyOHJiOGpjYzF4eHh6czM0YTVrbXJhaXZ1a3l4ajlnbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZcOXTqitw3c7SZs2AY/giphy.gif"
+        "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnQwYzRwdzQyOHJiOGpjYzF4eHh6czM0YTVrbXJhaXZ1a3l4ajlnbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZcOXTqitw3c7SZs2AY/giphy.gif",
         //"https://imgs.search.brave.com/K8FblLar6t_UV09RTMN_Y_gP9L3PyDJ5YbIccxgYJsU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJiYXQuY29t/L2ltZy81MjM4OTUt/YmVzdC13YWxscGFw/ZXItd2FsbHBhcGVy/LXBjLXB1cnBsZS5q/cGc"
         //"https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHJkMGI3Y3VkdTd0enR4YzBkdWR1cGZ6ZmcxODlxNTZucTliajc5dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qXfGWUDsAG7vO/giphy.gif"
         //"https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWUxa2RmNHZqZm10ajFlanhjamozdG5zZGx2YXkwZm9wanJhaGg1bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j3mdQpQ9SKxFOWs9gy/giphy.gif"
@@ -77,7 +77,24 @@
         // "https://private-user-images.githubusercontent.com/35212190/421474150-fc95555e-8039-40ec-814d-b974cf31d8bd.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQwNDQ4MzksIm5iZiI6MTc0NDA0NDUzOSwicGF0aCI6Ii8zNTIxMjE5MC80MjE0NzQxNTAtZmM5NTU1NWUtODAzOS00MGVjLTgxNGQtYjk3NGNmMzFkOGJkLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDA3VDE2NDg1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIzODgyOGRkNTQwNGYwODcwMzJlNDZlOGYyMDk0MGY3M2YwNWM4MzhmYjM2NTNjODE2NTU2YWZiMzFhYTM0MGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.2ASJzfhP_WFrp_lmRe3kHWeFKUtGQnRBmc0wFUSSDgw"
     ],
     "interval": 0,
-    "random": false
+    "random": false,
+    
+},
+"background.sidebar": {
+    "images": [
+        "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3oxZXZvZGp3cGZhMnh1c3FudXVtanJ5N3R6enBxajN3Nm12Mng4MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT0xepBhd8B6MbyhO0/giphy.gif"
+        //"https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWRjZ3Uyc2JybWs5OXdiazM2MWdhZnhvcGw1OTM5bnA1aWUwNXk4cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lJBBatUlwKQ0F7yRjO/giphy.gif"
+       // "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTQ3Mml5cGhvbDhlMDV1ZmszNzI2N2p0b3M3d2pkeWtxc3JoZXppcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/N43iolnh53IoyCjYp4/giphy.gif"
+        //"https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmpqM3N4bDRwNDljMXJpZW5nb3h3MGZpeGNnOHUzNGJrb2hidjBvYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2eKfFHjb30D9tDdJ59/giphy.gif"
+        //"https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDdwZDB1MjJuNDhvdDZpZXUxcDRkdGI5MDJ4dndlOGM1dGF0OHRlaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gMTlGp8Lr6eI/giphy.gif"
+         ],
+    "opacity": 0.2,
+    "size": "center",
+    "position": "center",
+    "interval": 0,
+    "random": false, 
+    "heigth": "100%",
+    "backgroundcolor":"purple"      
 },
 "doki.background.enabled": true,
 "doki.statusbar.name": "gabriel grezzana",
