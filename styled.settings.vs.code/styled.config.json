@@ -1,0 +1,86 @@
+{
+    "editor.defaultFormatter": "GitHub.copilot",
+    "editor.tabSize": 2,
+    "hediet.vscode-drawio.resizeImages": null,
+    "git.autofetch": true,
+    "colorize.decoration_type": "underline",
+    "explorer.confirmDelete": false,
+    "glassit.alpha": 235,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.startupEditor": "none",
+    "background.fullscreen": {
+        "images": [],
+        "opacity": 0.987,
+        "size": "cover",
+        "position": "center",
+        "interval": 0,
+        
+    },
+    "powermode.presets": "flames",
+    "powermode.enabled": true,
+    "powermode.shake.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "editor.formatOnPaste": true,
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": true
+    },
+    "git.enableSmartCommit": true,
+    "eslint.format.enable": true,
+    "workbench.colorTheme": "OM Theme (No Italic)",
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "workbench.iconTheme": "vscode-stardew-icon-theme",
+    "tabnine.experimentalAutoImports": true,
+    "backgroundOnline.history": [
+        "https://pic.rmb.bdstatic.com/bjh/c255939424ab3bcedde86e98954045bb2690.jpeg",
+        "https://img.btstu.cn/api/images/5ae02b7e4711c.jpg"
+    ],
+    "background.enabled": true,
+  "background.editor": {
+    "useFront": false, // <- Isso coloca a imagem ATRÁS do conteúdo, não na frente
+    "style": {
+        "background-position": "center",
+        "background-size": "500px 700px", // <- Faz a imagem cobrir todo o fundo
+        "background-repeat": "no-repeat", // <- Garante que a imagem não se repita
+        "opacity": 0.2, // <- 1 = 100% visível, mas ainda atrás do texto se "useFront" for false        
+        "border-radius": "20px", // <- Arredonda os cantos da imagem        
+        "background-color":"black"
+    },
+    "styles": [],    
+    "images": [        
+        "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnQwYzRwdzQyOHJiOGpjYzF4eHh6czM0YTVrbXJhaXZ1a3l4ajlnbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZcOXTqitw3c7SZs2AY/giphy.gif"
+        //"https://imgs.search.brave.com/K8FblLar6t_UV09RTMN_Y_gP9L3PyDJ5YbIccxgYJsU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJiYXQuY29t/L2ltZy81MjM4OTUt/YmVzdC13YWxscGFw/ZXItd2FsbHBhcGVy/LXBjLXB1cnBsZS5q/cGc"
+        //"https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHJkMGI3Y3VkdTd0enR4YzBkdWR1cGZ6ZmcxODlxNTZucTliajc5dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qXfGWUDsAG7vO/giphy.gif"
+        //"https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWUxa2RmNHZqZm10ajFlanhjamozdG5zZGx2YXkwZm9wanJhaGg1bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j3mdQpQ9SKxFOWs9gy/giphy.gif"
+         //"https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWFudHoyYWdhbjYwZDIwcXF2Mm4xM2J1Mnl2YzFtcjIxa3U5MG9jeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6ULDGyRw0uhECEhAaQ/giphy.gif",
+        //"https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWw4Y2ZsZHF5a2p2OGRiZW45YnVyNnJoNHg4aXc4MXh0cmlodHI3OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YrTJKOe0FhQJAUXTyp/giphy.gif", //-> dna
+        // "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExenMwNTk2emJrOG5yZjFjbjRyM2tpM2h1YnIyMHNlaGYyZGNxN2k3MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xTiTniVldi6wk0yZQ4/giphy.gif"
+        // "https://private-user-images.githubusercontent.com/35212190/421474150-fc95555e-8039-40ec-814d-b974cf31d8bd.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQwNDQ4MzksIm5iZiI6MTc0NDA0NDUzOSwicGF0aCI6Ii8zNTIxMjE5MC80MjE0NzQxNTAtZmM5NTU1NWUtODAzOS00MGVjLTgxNGQtYjk3NGNmMzFkOGJkLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDA3VDE2NDg1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIzODgyOGRkNTQwNGYwODcwMzJlNDZlOGYyMDk0MGY3M2YwNWM4MzhmYjM2NTNjODE2NTU2YWZiMzFhYTM0MGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.2ASJzfhP_WFrp_lmRe3kHWeFKUtGQnRBmc0wFUSSDgw"
+    ],
+    "interval": 0,
+    "random": false
+},
+"doki.background.enabled": true,
+"doki.statusbar.name": "gabriel grezzana",
+"doki.sticker.path": "D:\\gifs\\earth-6410_256.gif",
+"doki.sticker.css": "z-index:100;background-position:93% 97%; background-size: 155px 120px", 
+}
